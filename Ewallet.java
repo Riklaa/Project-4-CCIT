@@ -29,14 +29,11 @@ public class Ewallet {
     }
 
     public static void main(String args[]) {
-        // membuat suatu object didalam class
         Ewallet s = new Ewallet();
-        // memanggil fungsi dari class yang telah dibuat
         s.Topup(10);
         s.Payment(5);
         System.out.println("Welcome back Mr.X here's your current E-Wallet");
         s.Display();
-//        s.Enter();
 
     }
 }
